@@ -26,4 +26,4 @@ jobs:
           context: .
           platforms: linux/amd64, linux/arm64
           push: true
-          tags: jamorosoa/eks-blueprints-sample-app:${{ github.run.id }}
+          tags: jamorosoa/eks-blueprints-sample-app:${{ github.run_id }}
